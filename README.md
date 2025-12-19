@@ -17,16 +17,19 @@ This project demonstrates the deployment of **Sysmon** to achieve high-fidelity 
 
 ## Repository Structure
 
-```
+```text
 ├── config/
-│   └── sysmonconfig-export.xml       
-├── screenshots/
-│   ├── network_test.png        
-│   ├── ID_1.jpg                
-│   └── ID_3.png                
+│   └── sysmon-config.xml       
+├── EVIDENCE/                   
+│   ├── kali_ip.png             
+│   ├── win_ip.png              
+│   ├── net_test.png            
+│   ├── sysmon_status.png       
+│   ├── event_id1.png           
+│   └── event_id3.png           
 ├── analysis_report.md          
 ├── LICENSE                     
-└── README.md                   
+└── README.md                  
 ```
 ---
-👉 **For a deep dive into the methodology, network troubleshooting, and full log correlation, see the [Full Analysis Report](docs/analysis_report.md).**
+👉 **For a deep dive into the methodology, network troubleshooting, and full log correlation, see the [Full Analysis Report](analysis_report.md).**
