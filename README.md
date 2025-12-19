@@ -19,7 +19,7 @@ This project demonstrates the deployment of **Sysmon** to achieve high-fidelity 
 
 ```
 ├── config/
-│   └── sysmon-config.xml       
+│   └── sysmonconfig-export.xml       
 ├── screenshots/
 │   ├── network_test.png        
 │   ├── ID_1.jpg                
