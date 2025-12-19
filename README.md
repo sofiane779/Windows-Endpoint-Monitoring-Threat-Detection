@@ -14,5 +14,19 @@ This project demonstrates the deployment of **Sysmon** to achieve high-fidelity 
 | **Process** | `whoami.exe` spawned by `powershell.exe` | [View Image](screenshots/ID_1.jpg) |
 | **Network** | Outbound TCP/4444 to `192.168.56.10` | [View Image](screenshots/ID_3.png) |
 
+
+## Repository Structure
+
+```
+├── config/
+│   └── sysmon-config.xml       
+├── screenshots/
+│   ├── network_test.png        
+│   ├── ID_1.jpg                
+│   └── ID_3.png                
+├── analysis_report.md          
+├── LICENSE                     
+└── README.md                   
+```
 ---
 👉 **For a deep dive into the methodology, network troubleshooting, and full log correlation, see the [Full Analysis Report](docs/analysis_report.md).**
