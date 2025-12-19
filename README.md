@@ -11,8 +11,8 @@ This project demonstrates the deployment of **Sysmon** to achieve high-fidelity 
 ## Detection Highlights
 | Event Type | Artifact Captured | Evidence |
 | :--- | :--- | :--- |
-| **Process** | `whoami.exe` spawned by `powershell.exe` | [View Image](screenshots/ID_1.jpg) |
-| **Network** | Outbound TCP/4444 to `192.168.56.10` | [View Image](screenshots/ID_3.png) |
+| **Process** | `whoami.exe` spawned by `powershell.exe` | [View Image](EVIDENCE/event_id1.jpg) |
+| **Network** | Outbound TCP/4444 to `192.168.56.10` | [View Image](EVIDENCE/event_id3.png) |
 
 
 ## Repository Structure
